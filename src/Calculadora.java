@@ -28,6 +28,7 @@ public class Calculadora {
     private JButton Seno;
     private JButton Coseno;
     private JButton Tangente;
+    private JButton Salir;
 
     double a, b, resultado;
     String op;
@@ -222,6 +223,12 @@ public class Calculadora {
             }
         });
 
+        Salir.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                System.exit(0);
+            }
+        });
     }
 
     public static void main(String[] args) {
