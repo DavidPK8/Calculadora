@@ -25,6 +25,9 @@ public class Calculadora {
     private JButton Boton6;
     private JButton Boton3;
     private JButton Decimal;
+    private JButton Seno;
+    private JButton Coseno;
+    private JButton Tangente;
 
     double a, b, resultado;
     String op;
@@ -167,8 +170,31 @@ public class Calculadora {
             @Override
             public void actionPerformed(ActionEvent e) {
                 a = Double.parseDouble(TextField.getText());
-                TextField.setText("sqrt(" + a + ")");
                 resultado = Math.sqrt(a);
+                TextField.setText(String.valueOf(resultado));
+            }
+        });
+        Seno.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                a = Double.parseDouble(TextField.getText());
+                resultado = Math.sin(a);
+                TextField.setText(String.valueOf(resultado));
+            }
+        });
+        Coseno.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                a = Double.parseDouble(TextField.getText());
+                resultado = Math.cos(a);
+                TextField.setText(String.valueOf(resultado));
+            }
+        });
+        Tangente.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                a = Double.parseDouble(TextField.getText());
+                resultado = Math.tan(a);
                 TextField.setText(String.valueOf(resultado));
             }
         });
@@ -195,6 +221,7 @@ public class Calculadora {
                 }
             }
         });
+
     }
 
     public static void main(String[] args) {
