@@ -421,6 +421,7 @@
           <contentAreaFilled value="false"/>
           <font name="Palatino Linotype" size="12" style="1"/>
           <foreground color="-1"/>
+          <label value="Salir"/>
           <text value="Salir"/>
         </properties>
       </component>
