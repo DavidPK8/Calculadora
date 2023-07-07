@@ -226,7 +226,7 @@ public class Calculadora {
         Salir.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
-                TextField.setText("Gracias, vuelva pronto :)");
+                System.exit(0);
             }
         });
     }
