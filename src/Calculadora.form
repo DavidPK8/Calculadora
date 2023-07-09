@@ -42,6 +42,7 @@
         <properties>
           <background color="-1"/>
           <contentAreaFilled value="false"/>
+          <focusPainted value="false"/>
           <font name="Palatino Linotype" size="22" style="1"/>
           <foreground color="-1"/>
           <text value="C"/>
@@ -58,6 +59,7 @@
         <properties>
           <background color="-1"/>
           <contentAreaFilled value="false"/>
+          <focusPainted value="false"/>
           <font name="Palatino Linotype" size="22" style="1"/>
           <foreground color="-1"/>
           <text value="√"/>
@@ -74,6 +76,7 @@
         <properties>
           <background color="-1"/>
           <contentAreaFilled value="false"/>
+          <focusPainted value="false"/>
           <font name="Palatino Linotype" size="22" style="1"/>
           <foreground color="-1"/>
           <text value="7"/>
@@ -90,6 +93,7 @@
         <properties>
           <background color="-1"/>
           <contentAreaFilled value="false"/>
+          <focusPainted value="false"/>
           <font name="Palatino Linotype" size="22" style="1"/>
           <foreground color="-1"/>
           <text value="4"/>
@@ -106,6 +110,7 @@
         <properties>
           <background color="-1"/>
           <contentAreaFilled value="false"/>
+          <focusPainted value="false"/>
           <font name="Palatino Linotype" size="22" style="1"/>
           <foreground color="-1"/>
           <text value="1"/>
@@ -122,6 +127,7 @@
         <properties>
           <background color="-1"/>
           <contentAreaFilled value="false"/>
+          <focusPainted value="false"/>
           <font name="Palatino Linotype" size="22" style="1"/>
           <foreground color="-1"/>
           <text value="±"/>
@@ -138,6 +144,7 @@
         <properties>
           <background color="-1"/>
           <contentAreaFilled value="false"/>
+          <focusPainted value="false"/>
           <font name="Palatino Linotype" size="22" style="1"/>
           <foreground color="-1"/>
           <text value="←"/>
@@ -154,6 +161,7 @@
         <properties>
           <background color="-1"/>
           <contentAreaFilled value="false"/>
+          <focusPainted value="false"/>
           <font name="Palatino Linotype" size="22" style="1"/>
           <foreground color="-1"/>
           <text value="X"/>
@@ -170,6 +178,7 @@
         <properties>
           <background color="-1"/>
           <contentAreaFilled value="false"/>
+          <focusPainted value="false"/>
           <font name="Palatino Linotype" size="22" style="1"/>
           <foreground color="-1"/>
           <text value="-"/>
@@ -186,6 +195,7 @@
         <properties>
           <background color="-1"/>
           <contentAreaFilled value="false"/>
+          <focusPainted value="false"/>
           <font name="Palatino Linotype" size="22" style="1"/>
           <foreground color="-1"/>
           <text value="+"/>
@@ -202,6 +212,7 @@
         <properties>
           <background color="-1"/>
           <contentAreaFilled value="false"/>
+          <focusPainted value="false"/>
           <font name="Palatino Linotype" size="22" style="1"/>
           <foreground color="-1"/>
           <text value="="/>
@@ -217,9 +228,16 @@
         </constraints>
         <properties>
           <background color="-1"/>
+          <borderPainted value="true"/>
           <contentAreaFilled value="false"/>
+          <defaultCapable value="true"/>
+          <doubleBuffered value="false"/>
+          <enabled value="true"/>
+          <focusCycleRoot value="false"/>
+          <focusPainted value="false"/>
           <font name="Palatino Linotype" size="22" style="1"/>
           <foreground color="-1"/>
+          <hideActionText value="false"/>
           <text value="8"/>
         </properties>
       </component>
@@ -234,6 +252,7 @@
         <properties>
           <background color="-1"/>
           <contentAreaFilled value="false"/>
+          <focusPainted value="false"/>
           <font name="Palatino Linotype" size="22" style="1"/>
           <foreground color="-1"/>
           <text value="5"/>
@@ -250,6 +269,7 @@
         <properties>
           <background color="-1"/>
           <contentAreaFilled value="false"/>
+          <focusPainted value="false"/>
           <font name="Palatino Linotype" size="22" style="1"/>
           <foreground color="-1"/>
           <text value="2"/>
@@ -269,7 +289,7 @@
           <contentAreaFilled value="false"/>
           <defaultCapable value="true"/>
           <doubleBuffered value="false"/>
-          <focusPainted value="true"/>
+          <focusPainted value="false"/>
           <font name="Palatino Linotype" size="22" style="1"/>
           <foreground color="-1"/>
           <text value="0"/>
@@ -286,6 +306,7 @@
         <properties>
           <background color="-1"/>
           <contentAreaFilled value="false"/>
+          <focusPainted value="false"/>
           <font name="Palatino Linotype" size="22" style="1"/>
           <foreground color="-1"/>
           <text value="/"/>
@@ -302,6 +323,7 @@
         <properties>
           <background color="-1"/>
           <contentAreaFilled value="false"/>
+          <focusPainted value="false"/>
           <font name="Palatino Linotype" size="22" style="1"/>
           <foreground color="-1"/>
           <text value="9"/>
@@ -318,6 +340,7 @@
         <properties>
           <background color="-1"/>
           <contentAreaFilled value="false"/>
+          <focusPainted value="false"/>
           <font name="Palatino Linotype" size="22" style="1"/>
           <foreground color="-1"/>
           <text value="6"/>
@@ -334,6 +357,7 @@
         <properties>
           <background color="-1"/>
           <contentAreaFilled value="false"/>
+          <focusPainted value="false"/>
           <font name="Palatino Linotype" size="22" style="1"/>
           <foreground color="-1"/>
           <text value="3"/>
@@ -350,6 +374,7 @@
         <properties>
           <background color="-1"/>
           <contentAreaFilled value="false"/>
+          <focusPainted value="false"/>
           <font name="Palatino Linotype" size="22" style="1"/>
           <foreground color="-1"/>
           <text value="."/>
@@ -368,6 +393,7 @@
           <contentAreaFilled value="false"/>
           <defaultCapable value="true"/>
           <enabled value="true"/>
+          <focusPainted value="false"/>
           <font name="Palatino Linotype" size="14" style="1"/>
           <foreground color="-1"/>
           <text value="Sen"/>
@@ -386,6 +412,7 @@
           <contentAreaFilled value="false"/>
           <defaultCapable value="true"/>
           <enabled value="true"/>
+          <focusPainted value="false"/>
           <font name="Palatino Linotype" size="14" style="1"/>
           <foreground color="-1"/>
           <text value="Cos"/>
@@ -404,6 +431,7 @@
           <contentAreaFilled value="false"/>
           <defaultCapable value="true"/>
           <enabled value="true"/>
+          <focusPainted value="false"/>
           <font name="Palatino Linotype" size="14" style="1"/>
           <foreground color="-1"/>
           <text value="Tan"/>
@@ -419,6 +447,7 @@
         </constraints>
         <properties>
           <contentAreaFilled value="false"/>
+          <focusPainted value="false"/>
           <font name="Palatino Linotype" size="12" style="1"/>
           <foreground color="-1"/>
           <label value="Salir"/>
